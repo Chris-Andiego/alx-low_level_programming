@@ -1,10 +1,11 @@
 #include<stdio.h>
-/*main function
+/*
+ * main function
  *
  * Shoul return value zero
  */
-int main (void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
+	return (0);
 }
