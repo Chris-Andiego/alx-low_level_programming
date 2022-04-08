@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- *main - beginning of main function
+ *main - entry point
  *
- *Size of data types
- *
- *Returns 0 to show success
+ *Return: 0 after printing the function
  */
 
 int main(void)
