@@ -1,4 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
+/**
+ *main - beginning of main function
+ *
+ *Size of data types
+ *
+ *Returns 0 to show success
+ */
 
 int main(void)
 {
