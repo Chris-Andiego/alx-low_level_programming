@@ -7,7 +7,7 @@
  *Return: 0 is successful
  */
 
-int main (void)
+int main(void)
 {
 	char word[8] = "_putchar";
 	int i;
