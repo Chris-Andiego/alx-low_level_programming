@@ -2,7 +2,8 @@
 
 /**
  * _islower - check main
- *
+ * @c: is an input character
+ * Description: prints alphabets in lowercase
  * Return: 1 if lowercase and 0 if uppercase
  */
 
@@ -16,5 +17,5 @@ int _islower(int c)
 		if (i == c)
 			lower = 1;
 	}
-	return(lower);
+	return (lower);
 }
