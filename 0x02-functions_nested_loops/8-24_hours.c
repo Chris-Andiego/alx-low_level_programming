@@ -1,13 +1,25 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * Return: always 0
+ *jack_bauer - check main
+ *prints every minute in a day
+ * Return: Nothing
  */
 
-int main(void)
+void jack_bauer(void)
 {
-	jack_bauer();
-	return (0);
+	int H, M;
+
+	for (H = 0; H < 24; H++)
+	{
+		for (M = 0; M < 60; M++)
+		{
+			_putchar((H / 10) + '0');
+			_putchar((H % 10) + '0');
+			_putchar(':');
+			_putchar((M / 10) + '0');
+			_putchar((M % 10) + '0');
+			_putchar('\n');
+		}
+	}
 }
