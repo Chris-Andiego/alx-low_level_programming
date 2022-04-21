@@ -18,13 +18,13 @@ void rev_string(char *s)
 	str_point = 0;
 	tmp_arr = 0;
 	end_point = length - 1;
-	for (end_point = end_point; endpoint >= str_point; end_point--)
+	for (end_point = end_point; end_point >= str_point; end_point--)
 	{
 		string[tmp_arr] = s[end_point];
 		tmp_arr++;
 	}
 
-	for (end_point = 0; end_point < length end_point++)
+	for (end_point = 0; end_point < length; end_point++)
 	{
 		s[end_point] = string[end_point];
 	}
