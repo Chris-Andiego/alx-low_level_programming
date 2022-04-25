@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * strcat - function
+ * *_strcat - function
  *
  * @dest: destination
  * @src: source
