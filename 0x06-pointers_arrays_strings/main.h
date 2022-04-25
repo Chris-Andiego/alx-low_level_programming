@@ -14,4 +14,6 @@ int add(int a, int b);
 void print_to_98(int n);
 void print_times_table(int n);
 void print_array(int *a, int n);
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
 #endif
