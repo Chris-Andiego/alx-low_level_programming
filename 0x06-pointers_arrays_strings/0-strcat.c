@@ -4,7 +4,7 @@
  * *_strcat - function
  *
  * @dest: destination
- * @src: source
+ * @src: string
  * Return: string concatenation
  */
 
